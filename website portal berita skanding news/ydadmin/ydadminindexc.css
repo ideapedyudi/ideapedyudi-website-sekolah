@@ -1,0 +1,213 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "opensans", "arial";
+	overflow-x: none;
+}
+
+/* ========================================== bagian navbar ============================================= */
+.title-logo {
+	font-size:25px; 
+	margin-left: -18px;
+}
+
+.top-border {
+	width: 100%;
+	height: 5px;
+	z-index: 9;
+	margin-top: -24px;
+}
+
+.bg-primarys {
+	background-color: #00a5af !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+	color: #585757 !important;
+}
+
+.nav-link .text-nav {
+	font-size: 12px !important;
+}
+
+.text-nav-drow {
+	font-size: 13px;
+}
+
+.text-nav:hover {
+	background-color: #F7F6F6;
+	border-radius: 5px;
+}
+
+.box-botton {
+ box-shadow: 2px 2px 2px #C2C1C1;
+}
+
+.sosial {
+	border-radius: 40%;
+	height: 40px;
+	margin-left: 5px;
+	color: #00a5af;
+	box-shadow: 2px 2px 3px #E8E7E7;
+}
+
+.sosial:hover {
+	box-shadow: 2px 2px 2px #ddd;
+	color: #00a5af;
+	transform: scale(1, 1 );
+}
+
+/* ============================================ bagian jumbotron ========================================= */
+#particles-js {
+	background: rgb(129,211,242);
+background: linear-gradient(90deg, rgba(129,211,242,1) 0%, rgba(38,167,176,1) 0%, rgba(22,201,237,1) 100%);
+	width: 100%;
+	height: 425px;
+	  border-bottom-left-radius: 10% 2%;
+  border-bottom-right-radius: 10% 2%;
+}
+
+.road {
+	position: absolute;
+	margin-top: -310px;
+	margin-left: -65px;
+}
+
+.roadtext {
+	margin-top: -180px;
+	margin-left: 70%;
+	margin-bottom: 170px;
+}
+
+
+.mut {
+	color: #00a5af !important;
+}
+
+
+/* =========================================== bagian post berita ========================================= */
+.berita-terkini {
+}
+
+.kategori-berita {
+	border-bottom: 2px solid #DFDFDF;
+}
+
+
+.berita-terkini-judul {
+	color: #028E96;
+	border-bottom: 2px solid #DFDFDF;
+}
+
+.judul-jurusan {
+	color: #028E96;
+	font-size: 15px;
+	font-family: "opensansbold";
+	border-bottom: 2px solid #DFDFDF;
+}
+
+
+.kategori-berita-judul {
+	color: #028E96;
+	font-size: 14px;
+	font-family: "opensansbold";
+	border-bottom: 2px solid #DFDFDF;
+}
+
+/* =========================================== bagian card post ========================================= */
+.card a .card-title {
+	margin-left: 28px;
+	color: #444;;
+	font-size: 16px;
+	font-family: "opensansbold";
+}
+
+.card a .card-title:hover {
+	color: #208e96 !important;
+}
+
+.card .card-text {
+	margin-left: 28px;
+	font-size: 13px;
+	color: #777;
+}
+
+.card .tanggal-post {
+	background-color: #eff2f2 !important;
+	padding: 5px;
+	border-radius: 20px;
+	margin-left: 140px;
+}
+
+.postst {
+	font-size: 12px !important;
+	text-align: left;
+	margin-left: -10px;
+	color: #444;
+	font-weight: bold;
+	font-family: "opensansbold";
+
+}
+
+.postst:hover {
+	color: #00a5af;
+}
+
+.list-group-item .badge {
+	background-color: #00a5af !important;
+}
+
+.subcribe {
+	width: 100%;
+	border-top: 3px solid #208e96 !important;
+}
+
+.subcribe .card-title {
+	font-size: 16px;
+	font-weight: bold;
+	color: #444;
+}
+
+.kompetensi {
+	color: #028E96;
+	font-size: 16px;
+	font-family: "opensansbold";
+	border-bottom: 2px solid #DFDFDF;
+	width: 400px;
+	height: 30px;
+
+}
+
+.hr-judul {
+	margin-top: -2px !important;
+	width: 230px;
+	background-color: #00a5af !important;
+	height: 1px;
+}
+
+.hr-judul-jurusan {
+	margin-top: -2px !important;
+	width: 320px;
+	background-color: #00a5af !important;
+	height: 1px;
+}
+
+.populer-judul {
+	font-size: 13px;
+}
+
+
+/* ============================== footer ============================== */
+.card-footer {
+	margin-top: 50px;
+	width: 100%;
+	height: 90px;
+	border-top: 3px solid #00a5af;
+	font-family: "opensans";
+}
+
+.title-footer {
+	text-align: center;
+	font-size: 13px;
+	margin-top: 20px;
+}

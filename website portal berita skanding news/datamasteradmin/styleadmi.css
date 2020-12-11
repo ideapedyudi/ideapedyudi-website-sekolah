@@ -1,0 +1,29 @@
+/* utuk semua */
+body {
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+.bg-primarys {
+	background-color: #07C0CB !important;
+}
+
+.bg-primarysy {
+	background-color: #00a5af !important;
+}
+
+.list-hover:hover {
+	background-color: #DDDDDD !important;
+}
+
+.list-text {
+	font-size: 13px;
+	color: white;
+}
+
+/* responsive mobile */
+@media (min-width: 900) {
+	.navbar-nav {
+		display:none !important; 
+	} 
+}

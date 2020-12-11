@@ -1,0 +1,19 @@
+.curved {
+  border-bottom-left-radius: 50% 3%;
+  border-bottom-right-radius: 50% 3%;
+}
+
+.badge-li {
+	background-color: red !important;
+	width: 10px;
+	height: 10px;
+}
+
+.text-ul {
+	font-size: 14px;
+}
+
+.text-mis {
+	font-size: 18px;
+}
+
